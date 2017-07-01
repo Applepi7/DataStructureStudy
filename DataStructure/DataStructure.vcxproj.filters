@@ -13,5 +13,19 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\BASIC">
+      <UniqueIdentifier>{7cbde3f6-d878-4d41-b954-f8423569a11e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mallocANDfree.c">
+      <Filter>소스 파일\BASIC</Filter>
+    </ClCompile>
+    <ClCompile Include="typedef.c">
+      <Filter>소스 파일\BASIC</Filter>
+    </ClCompile>
+    <ClCompile Include="preprocessor.c">
+      <Filter>소스 파일\BASIC</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
