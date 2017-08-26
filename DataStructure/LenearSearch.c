@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+
+int LSearch(int arr[], int len, int target) // 순차 탐색 알고리즘 적용된 함수
+{
+	int i;
+	for (i = 0; i < len; i++)
+	{
+		if (arr[i] == target)
+			return i;	// 찾은 인덱스 값 반환
+	}
+	return -1;		// 찾지 못했음을 의미하는 값 반환
+}
+
+int main()
+{
+	int arr[] = { 3, 5, 2, 4, 9 };
+	int num;
+	int index;
+
+	printf("찾으실 인덱스 값을 입력해주세요 : ");
+	scanf("%d", &num);
+
+	index = LSearch(arr, sizeof(arr) / sizeof(int), num);
+
+	if (index == -1)
+		printf("탐색 실패\n");
+	else
+		printf("타겟 저장 인덱스 : %d\n", index);
+
+	return 0;
+}
+

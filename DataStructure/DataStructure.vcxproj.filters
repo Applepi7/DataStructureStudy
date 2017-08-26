@@ -27,5 +27,8 @@
     <ClCompile Include="preprocessor.c">
       <Filter>소스 파일\BASIC</Filter>
     </ClCompile>
+    <ClCompile Include="LenearSearch.c">
+      <Filter>소스 파일\BASIC</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
